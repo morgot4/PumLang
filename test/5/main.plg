@@ -1,0 +1,23 @@
+{
+    int a,b,c,f,n;
+    input(n);
+    if (n = 0)
+    {
+        print(n);
+    }
+    else
+    {
+        a := 0;
+        b := 1;
+        c := 2;
+        while (c < n + 1)
+        {
+            f := a + b;
+            a := b;
+            b := f;
+            c := c + 1;
+        };
+        print(b);
+    };
+}
+&
