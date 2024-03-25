@@ -1,0 +1,6 @@
+{
+    int a;
+    input(a);
+    print(a);
+}
+&
